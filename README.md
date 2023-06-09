@@ -1,5 +1,7 @@
 # Conformer-NTM
 
+**Note: This repository is actively maintained and being updated. Please note that the code and documentation are subject to changes and improvements. We recommend regularly checking for updates and referring to the latest version of the repository for the most up-to-date information.**
+
 This repo contains the code and model for our paper:
 
 Carlos Carvalho, Alberto Abad, “Memory-augmented conformer for improved end-to-end long-form ASR” in Proc. INTERSPEECH, 2023. (to appear)
@@ -23,7 +25,17 @@ The main results are summarized in this table:
 
 ### Usage
 
+**Note:** The `espnet2` directory provided in this repository includes custom modifications for training the Conformer-NTM. It contains additional memory-related functionalities and configurations specific to this work. Please ensure that you use the `espnet2` directory from this repository when setting up your environment for reproducing or extending our experiments. For any further questions, feel free to ask!  
+
+
 ### Pretrained models
+
+You can download the pretrained models from the Hugging Face Model Hub:
+
+- [Conformer-NTM-100](https://huggingface.co/Miamoto/conformer_ntm_libri_100)
+
+Make sure to follow the instructions provided in the repository to use the pretrained model in your own ASR tasks.
+
 
 ### Citation
 
@@ -40,6 +52,3 @@ Please cite our paper if you use Conformer-NTM.
 
 
 ### Acknowledgments
-
-
-
