@@ -260,8 +260,9 @@ class Speech2Text:
         # a. To device
         batch = to_device(batch, device=self.device)
         batch_size = batch["speech"].size(0)
-        
-        #self.asr_model.initialize_ntm(self.device, batch_size) # NTM
+       
+        #comment this line if your model does not have the external memory
+        self.asr_model.initialize_ntm(self.device, batch_size) # NTM
         
         # b. Forward Encoder
         enc, _ = self.asr_model.encode(**batch)

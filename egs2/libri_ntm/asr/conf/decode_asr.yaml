@@ -1,0 +1,8 @@
+beam_size: 60
+ctc_weight: 0.3
+lm_weight: 0
+#ngram_weight: 1
+#ngram_file: /exp/ngram/6gram.bin 
+maxlenratio: 0.0
+minlenratio: 0.0
+penalty: 0.0
