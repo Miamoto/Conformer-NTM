@@ -34,7 +34,7 @@ You can download the pretrained models from the Hugging Face Model Hub:
 
 - [Conformer-NTM-100](https://huggingface.co/Miamoto/conformer_ntm_libri_100)
 
-Make sure to follow the instructions provided in the repository to use the pretrained model in your own ASR tasks.
+Make sure to follow the instructions provided in the [repository](https://github.com/Miamoto/Conformer-NTM/blob/main/egs2/libri_ntm/asr1/README.md) to use the pretrained model in your own ASR tasks.
 
 
 ### Citation
