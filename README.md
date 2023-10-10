@@ -4,7 +4,7 @@
 
 This repo contains the code and model for our paper:
 
-Carlos Carvalho, Alberto Abad, “Memory-augmented conformer for improved end-to-end long-form ASR” in Proc. INTERSPEECH, 2023. (to appear)
+Carlos Carvalho, Alberto Abad, “Memory-augmented conformer for improved end-to-end long-form ASR” in Proc. INTERSPEECH, 2023.
 
 ## Overview
 
