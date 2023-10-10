@@ -66,7 +66,7 @@ class HeadBase(nn.Module):
         w_g = self._gated_interpolation(w_c, prev_w, g)
         w_s = self._mod_shift(w_g, s, batch_size)
         w   = self._sharpen(w_s, gamma) 
-        return w_c
+        return w
     
     def _gated_interpolation(self, w, prev_w, g):
         """
