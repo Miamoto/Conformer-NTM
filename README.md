@@ -2,7 +2,7 @@
 
 **Note: This repository is actively maintained and being updated. Please note that the code and documentation are subject to changes and improvements. We recommend regularly checking for updates and referring to the latest version of the repository for the most up-to-date information.**
 
-**Update information (9/11/2023): In the paper I mention that I use all steps of the NTM adressing mechanism briefly, but actually for the paper and the results shown I just used w_c, the content adressing mechanism for both reading and writing.   
+**Update information (9/11/2023): In the paper I mention that I use all steps of the NTM adressing mechanism, but for the paper and results shown I just used w_c, i.e., the content adressing mechanism, for both reading and writing operations.   
 
 This repo contains the code and model for our paper:
 
